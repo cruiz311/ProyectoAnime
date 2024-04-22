@@ -1,0 +1,1328 @@
+fileFormatVersion: 2
+guid: 9eef6ee2344c8b941b475db1c53845b0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_0"
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 336
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37dfdb1db89c32146b86c7d6f2a5d5b2
+      internalID: -1881713667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_1"
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 336
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f3e938e676eab4089d4a34e99f58cd
+      internalID: -948125797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_2"
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 336
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce8576b8a21cd643bd90373dcad9b8d
+      internalID: -1704667633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_3"
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 299
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e593f14bccc3a4d9aaa74f7c2c23b0
+      internalID: -673261620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_4"
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 300
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735d94fdcf57c7248b1689a6f5435283
+      internalID: -2097152760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_5"
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 303
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ba1b89d006f1649bc67ed6110c9311
+      internalID: -1580334404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_6"
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 299
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f181c8c4ecac0354da70ba08b54bb1c1
+      internalID: -548405665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_7"
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 299
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7169d45c9b462b34db1bd1aea0f08956
+      internalID: -355540767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_8"
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 299
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 710c45fd29c0d51478d8b409827f2763
+      internalID: 46115666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_9"
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 304
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86bbc6c1f046ed640af5c15f1b730939
+      internalID: -179598002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_10"
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 299
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571d514bcfb089c4e9aaf41dcb490152
+      internalID: 746443511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_11"
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 240
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7f2a693110e16439489c81b4adc814
+      internalID: -1113871478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_12"
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 240
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe6b1c2375d95d478be94ad16b5faef
+      internalID: -603241734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_13"
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 239
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1108afdbcc31a674ab607709cf5617f8
+      internalID: 1406677831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_14"
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 239
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e3a04cb08b398a4eb448f009d2b431a
+      internalID: 1646426283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_15"
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 240
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f937258e18d8a4e8d1dfcd8625fc01
+      internalID: -65931715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_16"
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 240
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f60b31099feb44ab4fff340030f37a
+      internalID: 1783656439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_17"
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 239
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3569eba11d6d67478cc81362ded283e
+      internalID: 1599931121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_18"
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 239
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ddf19acc38c29d4cb63ef0ebe79d31d
+      internalID: 1414659382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_19"
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 193
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ed3caf90c32b240890537789ba0d27
+      internalID: -1017089225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_20"
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 193
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01d89efc218091248bfc426a25590e95
+      internalID: 2064742568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_21"
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 192
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f392a50977d29f047a5155b7423d14da
+      internalID: -1660367725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_22"
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 191
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 464d341e38a31fb47b1430ef14ee3d6f
+      internalID: -1973625427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_23"
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 192
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5fd390654c759f4c89dfd1f0c6f0ba4
+      internalID: -1160988347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_24"
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 193
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b0d2487ed34d04882a4d1efcd96bc3
+      internalID: 1652214706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_25"
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 191
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d075379eef7c84ba27ee19da248564
+      internalID: -1986233337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_26"
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 191
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6a2d4f55c98f148bfde4350edf8469
+      internalID: -1640310409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_27"
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 143
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 176a834c99114fd4dad23ff798d5d68c
+      internalID: 427954348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_28"
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 143
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb05b4fe76ea6c0479fed4ccb2ede73f
+      internalID: 1441717427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_29"
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 143
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680d185a41285d8478a27cc33724da6b
+      internalID: -1269344670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_30"
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 143
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 825098ed0838d064bacd04b3bba198dd
+      internalID: -631612580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_31"
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 144
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1785cd31498964f42bbfd5582a71f087
+      internalID: 493472601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_32"
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 95
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c6d4c35178bbba47803c7cd186bc7e0
+      internalID: 306904329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_33"
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 95
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d22fcac7a2bb654198a2358f1a66439
+      internalID: 1039205447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_34"
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 95
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658304f2bc79d704d929f066798e1b38
+      internalID: -920113013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_35"
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 97
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3a420f5319bf4943a30d7fb93a346dd
+      internalID: -1459172374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_36"
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 102
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e4f0d2499bd36b4ea6039015f3bf580
+      internalID: -765329696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_37"
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 103
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc26ed657184b7049998da1fd1cddeb8
+      internalID: -1386825116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_38"
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 101
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1efa0b627ceb8d14d8d6b1b24f32ad36
+      internalID: -1397885545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_39"
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 98
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0958784f92ca2d14783e9a1e8ed53f10
+      internalID: -642022062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_40"
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 97
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643c7b211ae5bb64bb845c992a2afc73
+      internalID: -1424764966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_41"
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 95
+        width: 38
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 936cb61af89d721479a5dfdb719d5af0
+      internalID: -146437786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_42"
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 95
+        width: 38
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bad94dc2c76fbc4b92b6d6a711d5223
+      internalID: -1566863108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_43"
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 47
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484f106eed16c594ab7e44c5668f516d
+      internalID: -2000337762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_44"
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 47
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8992ed360e1e93243b67cd049efba4d1
+      internalID: 320331302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_45"
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 47
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71c087603c6f70a40a3e59073933c7da
+      internalID: 852142939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_46"
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 47
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea3f82af8b49b645bcd6cb8b6b18fba
+      internalID: 594187637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_47"
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 47
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87d63ac39626472428bb672a03000138
+      internalID: 1859085059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_48"
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 47
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a48d8f103e2d04ea7998db70817e28
+      internalID: -977762277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_49"
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 47
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0bac827501214c41b94b96f606b582c
+      internalID: -1614137839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_50"
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 47
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb5d17482ac3914bbfecbd8f54aeb5a
+      internalID: 498284677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_51"
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 47
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d509d2a2b9afba14faf67c9af2769e98
+      internalID: 436848190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_52"
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 47
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ae557a066804342b4765933105e4e5
+      internalID: -213030514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_53"
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 47
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: becaf6b1bc81a9140a8601916b1396d7
+      internalID: -613418542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_0": -1881713667
+      "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_1": -948125797
+      "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_10": 746443511
+      "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_11": -1113871478
+      "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_12": -603241734
+      "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_13": 1406677831
+      "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_14": 1646426283
+      "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_15": -65931715
+      "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_16": 1783656439
+      "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_17": 1599931121
+      "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_18": 1414659382
+      "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_19": -1017089225
+      "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_2": -1704667633
+      "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_20": 2064742568
+      "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_21": -1660367725
+      "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_22": -1973625427
+      "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_23": -1160988347
+      "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_24": 1652214706
+      "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_25": -1986233337
+      "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_26": -1640310409
+      "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_27": 427954348
+      "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_28": 1441717427
+      "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_29": -1269344670
+      "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_3": -673261620
+      "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_30": -631612580
+      "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_31": 493472601
+      "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_32": 306904329
+      "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_33": 1039205447
+      "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_34": -920113013
+      "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_35": -1459172374
+      "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_36": -765329696
+      "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_37": -1386825116
+      "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_38": -1397885545
+      "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_39": -642022062
+      "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_4": -2097152760
+      "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_40": -1424764966
+      "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_41": -146437786
+      "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_42": -1566863108
+      "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_43": -2000337762
+      "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_44": 320331302
+      "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_45": 852142939
+      "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_46": 594187637
+      "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_47": 1859085059
+      "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_48": -977762277
+      "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_49": -1614137839
+      "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_5": -1580334404
+      "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_50": 498284677
+      "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_51": 436848190
+      "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_52": -213030514
+      "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_53": -613418542
+      "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_6": -548405665
+      "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_7": -355540767
+      "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_8": 46115666
+      "56 sin t\xEDtulo_20240411200022-Photoroom.png-Photoroom_9": -179598002
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
