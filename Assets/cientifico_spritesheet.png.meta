@@ -1,0 +1,1654 @@
+fileFormatVersion: 2
+guid: 24116eb5ed91e6a41ae259593eba9995
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cientifico_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 576
+        width: 18
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54221e3b5f3025c4c98ef3f0e238e951
+      internalID: -597589066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 576
+        width: 19
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16685b30dd368544bdeb3592c039271
+      internalID: -359690251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 576
+        width: 18
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b651dc5b7940be54c8216d7d34702e0f
+      internalID: -1997716281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 528
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553c53329333f3446b874f0dbbc4aa8a
+      internalID: 1724713949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 528
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc5fa9e982322244a4e09bc1e27b94d
+      internalID: -1139759476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 528
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cae131b65ad52c4c98c119d875859e8
+      internalID: -1624714806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 480
+        width: 17
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e64978d140e022488174bc0f1e10802
+      internalID: -376762771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 480
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6625977ead7b86f4794651107314cfa1
+      internalID: 69610720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 480
+        width: 17
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40c6d60a6e562344180d63a7b3157e24
+      internalID: 1226834836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 480
+        width: 17
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69fab41cca397a41afdf05aeddd9e3d
+      internalID: 2095289456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 480
+        width: 17
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57520c486235536488301b189ee09d42
+      internalID: -1552333970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 480
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c64a3fbf362296b4a86239ea260dfd6d
+      internalID: -1699204057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 480
+        width: 17
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5424ac9ee350048a548a2ac4b1f27b
+      internalID: -905637409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 480
+        width: 17
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e26599ed20044498e2ac8bfcd7bd3f
+      internalID: -1363409877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 432
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84f20754584bd447b9a81d7e63989da
+      internalID: -896469379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 433
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34163726165f89645b986d2dad04b92f
+      internalID: 1075539813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 432
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a806f88b62a695446a1887fcde1edad5
+      internalID: -895694041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 432
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5658f52a64f7cfa49a4cd7d70630f99e
+      internalID: -581110518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 432
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f0d2d0da7f769419c61369e5dbd821
+      internalID: 822253299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 433
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12212c955c0e85488d699456a1fb47e
+      internalID: -320969240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 432
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 841fe06ea4fcb504f928014e7e3fbedf
+      internalID: -203919930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 432
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c9e68ea0bb59b4690db24ee5720d13
+      internalID: 1608344871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 384
+        width: 18
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce9b23a9a38822f4daafc9d4b23f612f
+      internalID: -2077041428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 384
+        width: 19
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f1b3009d53d5cd49897c5486ead9642
+      internalID: 1647126670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 384
+        width: 18
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87d2b0c93f5aa8845af38cf9a655e6b6
+      internalID: -766079192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 336
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b91f7a594a34834d90ed2063d93494d
+      internalID: 1493453331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 336
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04cbb45c39b8f0d46aecb831124456f4
+      internalID: 2074654204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 336
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3906a9f1acc94414ca1df4e810ae0477
+      internalID: -1444489168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 288
+        width: 17
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53dc8be5a1f048d438ddb7519a45857f
+      internalID: -831481963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 288
+        width: 17
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e5c11ecac82eb488087c96af321faf
+      internalID: 1039100648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 288
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cacd998427be01f418d1f3f756768757
+      internalID: 2123482990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 288
+        width: 17
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dfc1047735c28b4caf896cfea7d9d87
+      internalID: 1539340357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 288
+        width: 17
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb0198e37cd9a340af35ed206deaa65
+      internalID: -253039534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 288
+        width: 17
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 154e156164633d34ca031f9b7e740503
+      internalID: -1709018384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 288
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d2b8255087fcf54e893e0189d25864b
+      internalID: 1455824218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 288
+        width: 17
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfad24dd2f5182a429d0381c8beca579
+      internalID: -1822417401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 240
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21b6eff921b38c4f90c61d922f268ce
+      internalID: -365639020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 240
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eae6f3aa33e16e408aefac9393d721a
+      internalID: 1371771303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 241
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada519d50bbe89d4098b81a039fee95c
+      internalID: 1697069617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 240
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c59946d34ceabe4d8a3580feb945d77
+      internalID: 678147868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 240
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd257cef3a9f6d84a8012f6efcbcd6c6
+      internalID: -1944348927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 240
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd956e5736395d4d934261f1852a161
+      internalID: -448976735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 241
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620ba549ab56c8e46b0800c6aa474578
+      internalID: -1631466272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 240
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6dd5df59e77c14e9920ae1a021c90e
+      internalID: -1983825818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 192
+        width: 19
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ecbd1fdedd05fe4e9275875c146cef7
+      internalID: 1945018005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 192
+        width: 19
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5ca457351ce734d877995cb4cd666e
+      internalID: 1703113196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 192
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6307f4b92c39a724ba40269b3f1c2eda
+      internalID: 1449896904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 192
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459600b757f5dad4592a6cb34de1afd4
+      internalID: 1471471772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 192
+        width: 40
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9866b4758b1594490e0c918f9f08ea
+      internalID: 1450480347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 147
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb9be13d961cc9046be5d320a7d538fc
+      internalID: -1575665234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 151
+        width: 34
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abfde2663625a4e47bfa14a4ad991644
+      internalID: -840619208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 151
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f086eea12804949bba17d2c81039ea
+      internalID: 735417408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 144
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b26b3a64bc0dd4dac4cc5a7beb087e
+      internalID: 272764453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 148
+        width: 31
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b8708ea62983f44a535f813ada82c4
+      internalID: -1236216542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 144
+        width: 30
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e95ed6985f59e42b0435fb5be3511e
+      internalID: -997687078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 144
+        width: 30
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0929c37299f9da49b0e8e770ef39738
+      internalID: -507879191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_74
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95deb876595a0342ac18e257a9438eb
+      internalID: -1104821684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_75
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7362963d80c564c85f5423ccf4b66c
+      internalID: 1136637473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_76
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5930a46b8cb483c4282aeea9826e0f51
+      internalID: 1525778419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_77
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a6de5548974ce498b21450967c0a6c
+      internalID: 338870193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_78
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 96
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc15f6b49570a8942893ca77354bbe78
+      internalID: -401598077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_79
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a2c5f9d9cf5594586d82f8b86d5207
+      internalID: -577694013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_80
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 96
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e15404b75512a54d98f68ae906c6403
+      internalID: -1567842144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_81
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 96
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a01da9c4be5de741a24d4598e77c760
+      internalID: -771950683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_82
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b48d587ac72fbb408277c345af60d6f
+      internalID: -1532900886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_83
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01e4501ac847c049af77aac5e600c37
+      internalID: -1374176572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_84
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38d368c5d3925e4daafb7955c339d5a
+      internalID: 1086355704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cientifico_spritesheet_85
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 48
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90cd1ed6f0fff42429d5c02242f1e177
+      internalID: -1245212028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      cientifico_spritesheet_0: -597589066
+      cientifico_spritesheet_1: -359690251
+      cientifico_spritesheet_10: -1552333970
+      cientifico_spritesheet_11: -1699204057
+      cientifico_spritesheet_12: -905637409
+      cientifico_spritesheet_13: -1363409877
+      cientifico_spritesheet_14: -896469379
+      cientifico_spritesheet_15: 1075539813
+      cientifico_spritesheet_16: -895694041
+      cientifico_spritesheet_17: -581110518
+      cientifico_spritesheet_18: 822253299
+      cientifico_spritesheet_19: -320969240
+      cientifico_spritesheet_2: -1997716281
+      cientifico_spritesheet_20: -203919930
+      cientifico_spritesheet_21: 1608344871
+      cientifico_spritesheet_22: -2077041428
+      cientifico_spritesheet_23: 1647126670
+      cientifico_spritesheet_24: -766079192
+      cientifico_spritesheet_25: 1493453331
+      cientifico_spritesheet_26: 2074654204
+      cientifico_spritesheet_27: -1444489168
+      cientifico_spritesheet_28: -831481963
+      cientifico_spritesheet_29: 1039100648
+      cientifico_spritesheet_3: 1724713949
+      cientifico_spritesheet_30: 2123482990
+      cientifico_spritesheet_31: 1539340357
+      cientifico_spritesheet_32: -253039534
+      cientifico_spritesheet_33: -1709018384
+      cientifico_spritesheet_34: 1455824218
+      cientifico_spritesheet_35: -1822417401
+      cientifico_spritesheet_36: -365639020
+      cientifico_spritesheet_37: 1371771303
+      cientifico_spritesheet_38: 1697069617
+      cientifico_spritesheet_39: 678147868
+      cientifico_spritesheet_4: -1139759476
+      cientifico_spritesheet_40: -1944348927
+      cientifico_spritesheet_41: -448976735
+      cientifico_spritesheet_42: -1631466272
+      cientifico_spritesheet_43: -1983825818
+      cientifico_spritesheet_44: 1945018005
+      cientifico_spritesheet_45: 1703113196
+      cientifico_spritesheet_46: 1449896904
+      cientifico_spritesheet_47: 1471471772
+      cientifico_spritesheet_48: 1450480347
+      cientifico_spritesheet_49: -1575665234
+      cientifico_spritesheet_5: -1624714806
+      cientifico_spritesheet_50: -32865761
+      cientifico_spritesheet_51: -840619208
+      cientifico_spritesheet_52: -662659112
+      cientifico_spritesheet_53: 1560342665
+      cientifico_spritesheet_54: 1864745629
+      cientifico_spritesheet_55: 735417408
+      cientifico_spritesheet_56: -1255644829
+      cientifico_spritesheet_57: 927508315
+      cientifico_spritesheet_58: 1834622169
+      cientifico_spritesheet_59: 272764453
+      cientifico_spritesheet_6: -376762771
+      cientifico_spritesheet_60: -746124041
+      cientifico_spritesheet_61: 645296838
+      cientifico_spritesheet_62: -1236216542
+      cientifico_spritesheet_63: 401607626
+      cientifico_spritesheet_64: 422719786
+      cientifico_spritesheet_65: 1067255624
+      cientifico_spritesheet_66: -997687078
+      cientifico_spritesheet_67: 729017558
+      cientifico_spritesheet_68: 1133440569
+      cientifico_spritesheet_69: 1193002656
+      cientifico_spritesheet_7: 69610720
+      cientifico_spritesheet_70: -507879191
+      cientifico_spritesheet_71: -2051353747
+      cientifico_spritesheet_72: 301687976
+      cientifico_spritesheet_73: 1259087903
+      cientifico_spritesheet_74: -1104821684
+      cientifico_spritesheet_75: 1136637473
+      cientifico_spritesheet_76: 1525778419
+      cientifico_spritesheet_77: 338870193
+      cientifico_spritesheet_78: -401598077
+      cientifico_spritesheet_79: -577694013
+      cientifico_spritesheet_8: 1226834836
+      cientifico_spritesheet_80: -1567842144
+      cientifico_spritesheet_81: -771950683
+      cientifico_spritesheet_82: -1532900886
+      cientifico_spritesheet_83: -1374176572
+      cientifico_spritesheet_84: 1086355704
+      cientifico_spritesheet_85: -1245212028
+      cientifico_spritesheet_9: 2095289456
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
