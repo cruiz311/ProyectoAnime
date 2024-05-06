@@ -4,7 +4,6 @@ public class PlayerMov : MonoBehaviour
 {
     public bool isFacingRight = false;
     public float moveSpeed = 5f;
-    public Animator anim;
     public Rigidbody2D rb;
     Vector2 movement;
 

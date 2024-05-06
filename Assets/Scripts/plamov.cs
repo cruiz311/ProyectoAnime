@@ -1,4 +1,4 @@
-using System.Collections;
+    using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -68,7 +68,7 @@ public class Plamov : MonoBehaviour
     private void Girar()
     {
         mirandoDerecha = !mirandoDerecha;
-        transform.eulerAngles = new Vector3(0, transform.eulerAngles.y + 180, 0);
+        transform.eulerAngles = new Vector3(0, transform.eulerAngles.y - 180, 0);
     }
 
     private void OnDrawGizmos()
