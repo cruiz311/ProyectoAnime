@@ -84,22 +84,28 @@ public class Plamov : MonoBehaviour
 
     private void Escalar()  
     {
+        Debug.Log("Intentando escalar. input.y: " + input.y + " escalando: " + escalando);
+
+
         if ((input.y !=0 || escalando) && (boxCollider2D.IsTouchingLayers(LayerMask.GetMask("escaleras")))) 
         {
             Vector2 velocidadSubida = new Vector2(rb2d.velocity.x, input.y * velocidadEscalar);
             rb2d.velocity = velocidadSubida;
             rb2d.gravityScale = 0;
             escalando = true;
+            Debug.Log("Escalando. Velocidad: " + rb2d.velocity);
         }
         else
         {
             rb2d.gravityScale = gravedadInicial;
             escalando = false;
+            Debug.Log("No escalando. Restableciendo gravedad.");
         }
 
         if (enSuelo)
         {
             escalando = false;
+            Debug.Log("En el suelo, escalando: " + escalando);
         }
     }
 

@@ -34,5 +34,13 @@ public class disparoE : MonoBehaviour
     {
         Gizmos.color = Color.red;
         Gizmos.DrawLine(controladorDisparo.position, controladorDisparo.position + transform.right * distanciaLinea);
+        if (controladorDisparo != null)
+        {
+          
+        }
+        else
+        {
+            Debug.LogWarning("controladorDisparo no está asignado.");
+        }
     }
 }
