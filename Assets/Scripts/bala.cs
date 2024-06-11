@@ -18,9 +18,9 @@ public class bala : MonoBehaviour
     {
         if (other.CompareTag("Enemy"))
         {
-            Debug.Log("aaa");
-            //other.GetComponent<Enemy>().getDamage(daño);
-            //Destroy(gameObject);
+            // Debug.Log("aaa");
+            other.GetComponent<Enemy>().TomarDaño(daño);
+            Destroy(gameObject);
         }
     }
     void DestroyBala()

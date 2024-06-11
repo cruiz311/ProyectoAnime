@@ -4,20 +4,21 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private float vida;
+    [SerializeField] private GameObject efectoMuerte;
+
+    public void TomarDaño(float daño)
     {
-        
+        vida -= daño;
+        if (vida <= 0)
+        {
+            Muerte();
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Muerte()
     {
-        
-    }
-
-    public void getDamage(int damage)
-    {
-
+        Instantiate(efectoMuerte, transform.position, Quaternion.identity);
+        Destroy(gameObject);
     }
 }

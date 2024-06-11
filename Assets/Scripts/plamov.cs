@@ -40,10 +40,12 @@ public class Plamov : MonoBehaviour
 
     private void Update()
     {
-        input.y = Input.GetAxisRaw("Vertical");
+        
         input.x = Input.GetAxisRaw("Horizontal");
-        movimientoHorizontal = Input.GetAxisRaw("Horizontal") * velocidadMovimiento;
-       
+        input.y = Input.GetAxisRaw("Vertical");
+
+        movimientoHorizontal = input.x * velocidadMovimiento;
+
 
         if (Input.GetButtonDown("Jump") && enSuelo)
         {
@@ -82,7 +84,8 @@ public class Plamov : MonoBehaviour
 
     private void Escalar()  
     {
-        if ((input.y !=0 || escalando) && (boxCollider2D.IsTouchingLayers(LayerMask.GetMask("escaleras")))) {
+        if ((input.y !=0 || escalando) && (boxCollider2D.IsTouchingLayers(LayerMask.GetMask("escaleras")))) 
+        {
             Vector2 velocidadSubida = new Vector2(rb2d.velocity.x, input.y * velocidadEscalar);
             rb2d.velocity = velocidadSubida;
             rb2d.gravityScale = 0;
