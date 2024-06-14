@@ -36,7 +36,7 @@ public class disparoE : MonoBehaviour
         Gizmos.DrawLine(controladorDisparo.position, controladorDisparo.position + transform.right * distanciaLinea);
         if (controladorDisparo != null)
         {
-          
+
         }
         else
         {

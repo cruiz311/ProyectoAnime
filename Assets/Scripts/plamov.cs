@@ -9,6 +9,7 @@ public class Plamov : MonoBehaviour
     [Header("Configuración de Movimiento")]
     [SerializeField] private float velocidadMovimiento = 10f;
     [SerializeField] private float suavizadoMovimiento = 0.05f;
+    [SerializeField] private float velocidadSubida = 5f;
     private float movimientoHorizontal = 0f;
     private Vector3 velocidad = Vector3.zero;
     private bool mirandoDerecha = true;
@@ -18,24 +19,21 @@ public class Plamov : MonoBehaviour
     [SerializeField] private LayerMask esSuelo;
     [SerializeField] private Transform Csuelo;
     [SerializeField] private Vector3 dimensionesCaja;
+    BoxCollider2D boxCollider;
 
-
-    [Header("escalar")]
-    [SerializeField] private float velocidadEscalar;
-    private BoxCollider2D boxCollider2D;
-
-    private float gravedadInicial;
-    private bool escalando;
+   
 
     private bool enSuelo;
 
     private bool salto = false;
 
+    bool checkForLadders;
+
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
-        boxCollider2D = GetComponent<BoxCollider2D>();
-        gravedadInicial = rb2d.gravityScale;
+        boxCollider = gameObject.GetComponent<BoxCollider2D>();
+    
     }
 
     private void Update()
@@ -45,7 +43,8 @@ public class Plamov : MonoBehaviour
         input.y = Input.GetAxisRaw("Vertical");
 
         movimientoHorizontal = input.x * velocidadMovimiento;
-
+        Climb();
+        CheckForLadders();
 
         if (Input.GetButtonDown("Jump") && enSuelo)
         {
@@ -57,7 +56,7 @@ public class Plamov : MonoBehaviour
     {
         enSuelo = Physics2D.OverlapBox(Csuelo.position, dimensionesCaja, 0f, esSuelo);
         Mover(movimientoHorizontal * Time.fixedDeltaTime, salto);
-        Escalar();
+        
         salto = false;
     }
 
@@ -82,30 +81,19 @@ public class Plamov : MonoBehaviour
         }
     }
 
-    private void Escalar()  
+    private void Climb()
     {
-        Debug.Log("Intentando escalar. input.y: " + input.y + " escalando: " + escalando);
+        if (!checkForLadders) {
 
-
-        if ((input.y !=0 || escalando) && (boxCollider2D.IsTouchingLayers(LayerMask.GetMask("escaleras")))) 
+            boxCollider.isTrigger = false;
+            rb2d.gravityScale = 1;
+            return;}
+        var getDirection = Input.GetAxis("Vertical");
+        if(checkForLadders && Input.GetAxis("Vertical") !=0 )
         {
-            Vector2 velocidadSubida = new Vector2(rb2d.velocity.x, input.y * velocidadEscalar);
-            rb2d.velocity = velocidadSubida;
+            rb2d.velocity = new Vector2(rb2d.velocity.x, velocidadSubida*getDirection);
+            boxCollider.isTrigger = true;
             rb2d.gravityScale = 0;
-            escalando = true;
-            Debug.Log("Escalando. Velocidad: " + rb2d.velocity);
-        }
-        else
-        {
-            rb2d.gravityScale = gravedadInicial;
-            escalando = false;
-            Debug.Log("No escalando. Restableciendo gravedad.");
-        }
-
-        if (enSuelo)
-        {
-            escalando = false;
-            Debug.Log("En el suelo, escalando: " + escalando);
         }
     }
 
@@ -113,6 +101,18 @@ public class Plamov : MonoBehaviour
     {
         mirandoDerecha = !mirandoDerecha;
         transform.eulerAngles = new Vector3(0, transform.eulerAngles.y - 180, 0);
+    }
+
+    private void CheckForLadders()
+    {
+        if(boxCollider.IsTouchingLayers(LayerMask.GetMask("escaleras")))
+        {
+            checkForLadders = true;
+        }
+        else
+        {
+            checkForLadders = false;
+        }
     }
 
     private void OnDrawGizmos()
