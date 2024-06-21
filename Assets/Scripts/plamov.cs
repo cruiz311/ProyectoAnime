@@ -6,6 +6,10 @@ public class Plamov : MonoBehaviour
 {
     private Rigidbody2D rb2d;
     private Vector2 input;
+
+    public bool sePuedeMover = true;
+    [SerializeField] private Vector2 velocidadPvtazo;
+
     [Header("Configuración de Movimiento")]
     [SerializeField] private float velocidadMovimiento = 10f;
     [SerializeField] private float suavizadoMovimiento = 0.05f;
@@ -21,7 +25,8 @@ public class Plamov : MonoBehaviour
     [SerializeField] private Vector3 dimensionesCaja;
     BoxCollider2D boxCollider;
 
-   
+    [Header("Rebote")]
+    [SerializeField] private float velocidadRebote;
 
     private bool enSuelo;
 
@@ -55,7 +60,10 @@ public class Plamov : MonoBehaviour
     private void FixedUpdate()
     {
         enSuelo = Physics2D.OverlapBox(Csuelo.position, dimensionesCaja, 0f, esSuelo);
-        Mover(movimientoHorizontal * Time.fixedDeltaTime, salto);
+         if (sePuedeMover)
+        {
+            Mover(movimientoHorizontal * Time.fixedDeltaTime, salto);
+        }
         
         salto = false;
     }
@@ -96,6 +104,18 @@ public class Plamov : MonoBehaviour
             rb2d.gravityScale = 0;
         }
     }
+
+    public void Rebote()
+    {
+        rb2d.velocity = new Vector2(rb2d.velocity.x, velocidadRebote);
+    }
+
+    public void Pvtazo(Vector2 puntoGolpe)
+    {
+        rb2d.velocity = new Vector2(-velocidadPvtazo.x * puntoGolpe.x, velocidadPvtazo.y);
+    }
+
+
 
     private void Girar()
     {
