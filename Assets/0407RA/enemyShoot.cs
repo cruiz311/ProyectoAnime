@@ -1,5 +1,5 @@
 using System.Collections;
-using System.ComponentModel;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyShootUp : MonoBehaviour
@@ -10,6 +10,8 @@ public class EnemyShootUp : MonoBehaviour
     [SerializeField, Tooltip("Tiempo de espera entre ráfagas")] private float Cd;
     [SerializeField, Tooltip("Tiempo de espera entre balas en cada ráfaga")] private float CdIndv;
     [SerializeField, Tooltip("El GO de la bala")] private GameObject BalaGO;
+
+    [SerializeField, Tooltip("Añade todos los colliders de este enemigo")] private List<Collider2D> EnemyColliders;
 
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -34,8 +36,21 @@ public class EnemyShootUp : MonoBehaviour
 
                 GameObject aBala = Instantiate(BalaGO, this.transform.position, Quaternion.identity);
 
+                foreach (Collider2D collider_ in GetComponents<Collider2D>())
+                {
+                    EnemyColliders.Add(collider_);
+                }
 
-                Physics2D.IgnoreCollision(this.gameObject.GetComponent<Collider2D>(), aBala.GetComponent<Collider2D>());
+                foreach (Collider2D collider_ in GetComponentsInChildren<Collider2D>())
+                {
+                    EnemyColliders.Add(collider_);
+                }
+
+                foreach (Collider2D collider_ in EnemyColliders)
+                {
+                    Physics2D.IgnoreCollision(collider_, aBala.GetComponent<Collider2D>());
+                }
+
             }
 
             yield return new WaitForSeconds(Cd);

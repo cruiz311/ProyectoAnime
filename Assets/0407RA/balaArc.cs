@@ -17,6 +17,9 @@ public class BalaBhvARC : MonoBehaviour
     [Tooltip("Las capas en la que se puede fijar el objetivo (seleccionar la capa del suelo)")]
     public LayerMask layer;
 
+    [Tooltip("Tiempo de vida de la bala en segundos")]
+    public float lifeTime = 5f; 
+
     Vector3 startPos, nextPosS, pt0;
 
     void Start()
@@ -26,6 +29,8 @@ public class BalaBhvARC : MonoBehaviour
         RaycastHit2D ray = Physics2D.Raycast(PlayerDetect.Instance._player.transform.position, Vector2.down, 15f, layer);
 
         targetPos = ray.point;
+
+        Destroy(gameObject, lifeTime);
     }
 
     void Update()
@@ -63,11 +68,12 @@ public class BalaBhvARC : MonoBehaviour
 
     public void OnCollisionEnter2D(Collision2D other)
     {
+        Debug.Log(other.gameObject);
         if (other.gameObject == PlayerDetect.Instance._player)
         {
             //hacer daño al jugador /* -------------------------------------------------------------------------------------------------------- */
         }
-
+        
         Destroy(this.gameObject);
     }
 }

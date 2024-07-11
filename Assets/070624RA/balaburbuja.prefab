@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7487713723796823080}
   - component: {fileID: 5191837985108743090}
   - component: {fileID: 8905063858260950115}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: balaburbuja
   m_TagString: Untagged
   m_Icon: {fileID: 0}
