@@ -106,6 +106,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -118,10 +131,14 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -14, y: 16}
+        - {x: -14, y: -16}
+        - {x: 14, y: -16}
+        - {x: 14, y: 16}
       tessellationDetail: 0
       bones: []
       spriteID: 26d74327e83c9e24ebcbc2740d05cb9b
@@ -139,10 +156,16 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -2}
+        - {x: -14, y: -16}
+        - {x: 14, y: -16}
+        - {x: 16, y: 10}
+        - {x: 16, y: 16}
       tessellationDetail: 0
       bones: []
       spriteID: 6ca5ef00ae7883642813c262da6093a2
@@ -160,10 +183,14 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -14, y: 16}
+        - {x: -14, y: -16}
+        - {x: 14, y: -16}
+        - {x: 14, y: 16}
       tessellationDetail: 0
       bones: []
       spriteID: 612a704e9d78d6948b1a07793122e4ac
@@ -181,10 +208,15 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -13, y: -16}
+        - {x: 14, y: -16}
+        - {x: 14, y: 16}
+        - {x: -14, y: 16}
+        - {x: -14, y: -12}
       tessellationDetail: 0
       bones: []
       spriteID: 5b6f1651cb5453c41abe2b1e0b13c5fd

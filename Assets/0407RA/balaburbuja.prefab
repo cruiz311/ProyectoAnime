@@ -13,8 +13,7 @@ GameObject:
   - component: {fileID: 1801786903208476059}
   - component: {fileID: -1088587723160072945}
   - component: {fileID: -3786247432402436922}
-  - component: {fileID: -3926594153915751664}
-  - component: {fileID: 690503630572419947}
+  - component: {fileID: -8003963736967573790}
   m_Layer: 9
   m_Name: balaburbuja
   m_TagString: Enemy
@@ -139,7 +138,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -172,7 +171,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
---- !u!114 &-3926594153915751664
+--- !u!114 &-8003963736967573790
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -181,25 +180,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 6718811214930592844}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a70eb43107027640ba66f1d73960682, type: 3}
+  m_Script: {fileID: 11500000, guid: 72d872e20f58aae4f9d9c72ec1ef34c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Vel: 15
-  Arc: 2.3
-  layer:
-    serializedVersion: 2
-    m_Bits: 64
-  lifeTime: 10
---- !u!114 &690503630572419947
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6718811214930592844}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d5773d0db6e16f46bd4f15c055a26d5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 40
+  Randomize: 0.5
+  Vel: 3.1
+  minFallTime: 1
+  maxFallTime: 3
+  fallAcceleration: -1.16
+  smoothingDuration: 1.14
+  damage: 8

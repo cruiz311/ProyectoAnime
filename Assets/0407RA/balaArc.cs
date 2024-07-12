@@ -18,10 +18,11 @@ public class BalaBhvARC : MonoBehaviour
     public LayerMask layer;
 
     [Tooltip("Tiempo de vida de la bala en segundos")]
-    public float lifeTime = 5f; 
+    public float lifeTime; 
 
-    Vector3 startPos, nextPosS, pt0;
-
+    [Tooltip("Daño que inflinge la bala")]
+    public int Dmg; 
+    Vector3 startPos, DistMult;
     void Start()
     {
         startPos = transform.position;
@@ -30,15 +31,15 @@ public class BalaBhvARC : MonoBehaviour
 
         targetPos = ray.point;
 
-        Destroy(gameObject, lifeTime);
+        StartCoroutine(nameof(Destroy_this));
     }
 
     void Update()
     {
-
+        
         if (_done)
         {
-
+            GetComponent<Rigidbody2D>().velocity = Vector2.down;
         }
         else
         {
@@ -46,7 +47,7 @@ public class BalaBhvARC : MonoBehaviour
             float x1 = targetPos.x;
             float dist = x1 - x0;
             float nextX = Mathf.MoveTowards(transform.position.x, x1, Vel * Time.deltaTime);
-            float baseY = Mathf.Lerp(startPos.y, targetPos.y, (nextX - x0) / dist);
+            float baseY = Mathf.Lerp(startPos.y, targetPos.y, ((nextX - x0) / dist));
             float arc = Arc * (nextX - x0) * (nextX - x1) / (-0.25f * dist * dist);
             Vector3 nextPos = new Vector3(nextX, baseY + arc, transform.position.z);
 
@@ -69,11 +70,18 @@ public class BalaBhvARC : MonoBehaviour
     public void OnCollisionEnter2D(Collision2D other)
     {
         Debug.Log(other.gameObject);
+
         if (other.gameObject == PlayerDetect.Instance._player)
         {
-            //hacer da�o al jugador /* -------------------------------------------------------------------------------------------------------- */
+            PlayerDetect.Instance._player.GetComponent<CombateJugador>().TomarDaño(Dmg);
         }
         
+        Destroy(this.gameObject);
+    }
+
+    IEnumerator Destroy_this()
+    {
+        yield return new WaitForSeconds(lifeTime);
         Destroy(this.gameObject);
     }
 }

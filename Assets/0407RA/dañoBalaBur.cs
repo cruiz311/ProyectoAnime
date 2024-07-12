@@ -13,15 +13,16 @@ public class dañoBalaBur : MonoBehaviour
         Destroybalaburbuja();
     }
 
+/*
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.TryGetComponent(out CombateJugador combatejugador))
         {
-            combatejugador.TomarDaño(daño);
+            
             Destroy(gameObject);
         }
     }
-
+*/
     void Destroybalaburbuja()
     {
         Destroy(gameObject, 1f);
