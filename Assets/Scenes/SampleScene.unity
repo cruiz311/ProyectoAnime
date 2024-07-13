@@ -1018,7 +1018,7 @@ Transform:
   m_GameObject: {fileID: 392609078}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -84.59, y: 0.53080004, z: -10}
+  m_LocalPosition: {x: -101.66, y: 13.1407995, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1264,6 +1264,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5694670902208900851, guid: 971bf89c906addc4285e976a86735e98, type: 3}
+      propertyPath: efecto
+      value: 
+      objectReference: {fileID: 724479486919110002, guid: 2b1b3653ab30c4e4db0c432e0b52fb41, type: 3}
     - target: {fileID: 5694670902208900851, guid: 971bf89c906addc4285e976a86735e98, type: 3}
       propertyPath: puntaje
       value: 
@@ -1536,7 +1540,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -84.59, y: 0.53080004, z: -10}
+  m_LocalPosition: {x: -101.66, y: 13.1407995, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -77261,7 +77265,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62b27c2a2d300064698db2144c845d31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  efecto: {fileID: 5682500500148278860, guid: e35bc0533ce4c034fa0e9149e5dec192, type: 3}
+  efecto: {fileID: 724479486919110002, guid: 2b1b3653ab30c4e4db0c432e0b52fb41, type: 3}
   cantidadPuntos: 800
   puntaje: {fileID: 2006628447}
 --- !u!1 &1459446885
@@ -79727,7 +79731,7 @@ Transform:
   m_GameObject: {fileID: 2377229195758085756}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -84.59, y: -0.2, z: 0}
+  m_LocalPosition: {x: -101.66, y: 12.41, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -80176,6 +80180,10 @@ PrefabInstance:
     - target: {fileID: 3406558775361553567, guid: 329a9ada4b5d62f479b5735fc7b05b33, type: 3}
       propertyPath: m_Name
       value: burbuja
+      objectReference: {fileID: 0}
+    - target: {fileID: 3406558775361553567, guid: 329a9ada4b5d62f479b5735fc7b05b33, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 3463939411900210087, guid: 329a9ada4b5d62f479b5735fc7b05b33, type: 3}
       propertyPath: m_LocalPosition.x
