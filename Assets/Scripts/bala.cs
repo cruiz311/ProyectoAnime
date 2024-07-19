@@ -2,29 +2,34 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class bala : MonoBehaviour
+public class Bala : MonoBehaviour
 {
     [SerializeField] private float velocidad;
-
     [SerializeField] private int daño;
 
     private void Update()
     {
         transform.Translate(Vector2.right * velocidad * Time.deltaTime);
-        DestroyBala();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Enemy"))
         {
-            // Debug.Log("aaa");
-            other.GetComponent<Enemy>().TomarDaño(daño);
+            Enemy enemigo = other.GetComponent<Enemy>();
+            if (enemigo != null)
+            {
+                enemigo.TomarDaño(daño);
+            }
             Destroy(gameObject);
         }
     }
-    void DestroyBala()
+
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        Destroy(gameObject, 1f);
+        if (collision.gameObject.layer == LayerMask.NameToLayer("piso"))
+        {
+            Destroy(gameObject);
+        }
     }
 }

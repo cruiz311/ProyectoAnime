@@ -16,6 +16,8 @@ public class BalaBhvFALL : MonoBehaviour
     public float smoothingDuration = 1.0f;
     [Tooltip("Daño que inflige la bala al jugador")]
     public int damage = 8;
+    [Tooltip("Efecto de muerte de la bala")]
+    public GameObject efectoMuerte;
 
     private Rigidbody2D rb;
     private bool isFalling = false;
@@ -67,8 +69,17 @@ public class BalaBhvFALL : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             other.gameObject.GetComponent<CombateJugador>().TomarDaño(damage);
+            Muerte();
         }
+        else if (other.gameObject.layer == LayerMask.NameToLayer("piso"))
+        {
+            Muerte();
+        }
+    }
 
+    private void Muerte()
+    {
+        Instantiate(efectoMuerte, transform.position, Quaternion.identity);
         Destroy(gameObject);
     }
 

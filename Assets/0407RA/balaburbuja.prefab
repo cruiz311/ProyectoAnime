@@ -191,6 +191,7 @@ MonoBehaviour:
   fallAcceleration: -1.16
   smoothingDuration: 1.14
   damage: 8
+  efectoMuerte: {fileID: 6590557059877465265, guid: 15716c45810179b4596183b335a4dd61, type: 3}
 --- !u!114 &2495481523525685810
 MonoBehaviour:
   m_ObjectHideFlags: 0
