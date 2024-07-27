@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2583b0f4760ef4e4590ad457ce4580c0
+guid: c46f6c34fc8df2d4a89d93d953d18c9f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 28
+  spritePixelsToUnits: 150
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -123,232 +123,190 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "59 sin t\xEDtulo_20240502173152_0"
+      name: Gato
       rect:
         serializedVersion: 2
         x: 0
-        y: 56
-        width: 56
-        height: 56
+        y: 320
+        width: 160
+        height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b6a7535897a2c14dbf5d4624df1c7ce
-      internalID: 856836828
+      spriteID: c41719863db76064991428d27c55b76c
+      internalID: 1268887253
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "59 sin t\xEDtulo_20240502173152_1"
+      name: Galleta
       rect:
         serializedVersion: 2
-        x: 56
-        y: 56
-        width: 56
-        height: 56
+        x: 160
+        y: 320
+        width: 160
+        height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10d4492ec00e2bc4f8421e8a6ed81bd6
-      internalID: 1424118396
+      spriteID: 95bf68618e9e21a4a8a4f828c491d266
+      internalID: -1274864405
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "59 sin t\xEDtulo_20240502173152_2"
+      name: Ensalada
       rect:
         serializedVersion: 2
-        x: 112
-        y: 56
-        width: 56
-        height: 56
+        x: 320
+        y: 320
+        width: 160
+        height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4ec9ec1666848946837baea5b8b5e65
-      internalID: 1038956395
+      spriteID: 27e117b5970cf5a49aedcab49ddd9120
+      internalID: -641395457
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "59 sin t\xEDtulo_20240502173152_3"
+      name: BolaBillar
       rect:
         serializedVersion: 2
-        x: 168
-        y: 56
-        width: 56
-        height: 56
+        x: 0
+        y: 160
+        width: 160
+        height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e00c50280b875af47bd02da9cd31931f
-      internalID: 1744094969
+      spriteID: e53dc0b0830464e47ac36ef3bc477de9
+      internalID: -151406330
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "59 sin t\xEDtulo_20240502173152_4"
+      name: Cola
       rect:
         serializedVersion: 2
-        x: 224
-        y: 56
-        width: 56
-        height: 56
+        x: 160
+        y: 160
+        width: 160
+        height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd566b98bf3a80c4b99505053e77e4f1
-      internalID: -666353132
+      spriteID: 56a117e67f677af4c8f7857b47d203b7
+      internalID: 1448981214
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "59 sin t\xEDtulo_20240502173152_5"
+      name: Disco
       rect:
         serializedVersion: 2
-        x: 280
-        y: 56
-        width: 56
-        height: 56
+        x: 319
+        y: 160
+        width: 160
+        height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8837025fcc18e584da792ee200c05a7b
-      internalID: -723202139
+      spriteID: 251a63d85a7a22942936502db4793c41
+      internalID: 1220106198
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "59 sin t\xEDtulo_20240502173152_6"
+      name: Libros
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 56
-        height: 56
+        width: 160
+        height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b78332e230345cd4298b8133d61ad9a6
-      internalID: 278604779
+      spriteID: 534b049498d994f49a4e3e9af6fbbaad
+      internalID: -1210514734
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "59 sin t\xEDtulo_20240502173152_7"
+      name: Poster
       rect:
         serializedVersion: 2
-        x: 56
+        x: 160
         y: 0
-        width: 56
-        height: 56
+        width: 160
+        height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f87f32a7b6ab6314d81363cf1a6acc64
-      internalID: 154319968
+      spriteID: 188cb246c371c624288bd3f2af11ca8e
+      internalID: 1923283721
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "59 sin t\xEDtulo_20240502173152_8"
+      name: UnicornioEncerrado
       rect:
         serializedVersion: 2
-        x: 112
+        x: 319
         y: 0
-        width: 56
-        height: 56
+        width: 160
+        height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0bbdfb8069add454ab8a6ce9a567f87e
-      internalID: 262575838
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "59 sin t\xEDtulo_20240502173152_9"
-      rect:
-        serializedVersion: 2
-        x: 168
-        y: 0
-        width: 56
-        height: 56
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 05811ba11047a804c853fca9b7067a7b
-      internalID: -1208055962
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "59 sin t\xEDtulo_20240502173152_10"
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 0
-        width: 56
-        height: 56
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0fda3a4bd8e002d4791adab0ae68f858
-      internalID: -1676192804
+      spriteID: a78636236e35c6640ae8552c6c7a6164
+      internalID: 117310674
       vertices: []
       indices: 
       edges: []
@@ -364,17 +322,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      "59 sin t\xEDtulo_20240502173152_0": 856836828
-      "59 sin t\xEDtulo_20240502173152_1": 1424118396
-      "59 sin t\xEDtulo_20240502173152_10": -1676192804
-      "59 sin t\xEDtulo_20240502173152_2": 1038956395
-      "59 sin t\xEDtulo_20240502173152_3": 1744094969
-      "59 sin t\xEDtulo_20240502173152_4": -666353132
-      "59 sin t\xEDtulo_20240502173152_5": -723202139
-      "59 sin t\xEDtulo_20240502173152_6": 278604779
-      "59 sin t\xEDtulo_20240502173152_7": 154319968
-      "59 sin t\xEDtulo_20240502173152_8": 262575838
-      "59 sin t\xEDtulo_20240502173152_9": -1208055962
+      BolaBillar: -151406330
+      Cola: 1448981214
+      Disco: 1220106198
+      Ensalada: -641395457
+      Galleta: -1274864405
+      Gato: 1268887253
+      Libros: -1210514734
+      Poster: 1923283721
+      UnicornioEncerrado: 117310674
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
