@@ -66,7 +66,7 @@ AnimatorStateMachine:
     m_Position: {x: 320, y: 30, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -2800264608120955022}
-    m_Position: {x: 282.32202, y: 204.12305, z: 0}
+    m_Position: {x: 320, y: 150, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -4721378987120168207}
     m_Position: {x: 317.32202, y: 269.12305, z: 0}
@@ -129,6 +129,12 @@ AnimatorController:
     m_Controller: {fileID: 9100000}
   - m_Name: 2
     m_Type: 1
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 9100000}
+  - m_Name: efecto
+    m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0

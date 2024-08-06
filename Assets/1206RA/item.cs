@@ -1,20 +1,25 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class recolectable : MonoBehaviour
+public class Recolectable : MonoBehaviour
 {
-    [SerializeField] private GameObject efecto;
     [SerializeField] private float cantidadPuntos;
     [SerializeField] private Puntaje puntaje;
+    public Animator anim;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
+            anim.SetBool("efecto", true);
             puntaje.SumarPuntos(cantidadPuntos);
-            Instantiate(efecto, transform.position, Quaternion.identity);
-            Destroy(gameObject);
+            StartCoroutine(DestruirDespuesDeDelay(1f)); // Inicia la corrutina con un retraso de 2 segundos
         }
+    }
+
+    private IEnumerator DestruirDespuesDeDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        Destroy(gameObject);
     }
 }
