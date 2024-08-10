@@ -13,7 +13,7 @@ public class Recolectable : MonoBehaviour
         {
             anim.SetBool("efecto", true);
             puntaje.SumarPuntos(cantidadPuntos);
-            StartCoroutine(DestruirDespuesDeDelay(1f)); // Inicia la corrutina con un retraso de 2 segundos
+            StartCoroutine(DestruirDespuesDeDelay(1.5f)); // Inicia la corrutina con un retraso de 2 segundos
         }
     }
 

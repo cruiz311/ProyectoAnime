@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -45,10 +45,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 10
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -123,253 +123,190 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "88 sin t\xEDtulo_20240701151638_0"
+      name: exploG_0
       rect:
         serializedVersion: 2
-        x: 205
+        x: 0
         y: 0
-        width: 36
-        height: 42
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc19deda30e7b2644a9d2a8dbe0118fe
-      internalID: -867911565
+      spriteID: e191a59cf75085444b91580ca597f8f6
+      internalID: -197731193
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "88 sin t\xEDtulo_20240701151638_1"
+      name: exploG_1
       rect:
         serializedVersion: 2
-        x: 268
-        y: 6
-        width: 39
-        height: 40
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fbde6bdd147accb48b3e788cd9688e00
-      internalID: -145883305
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "88 sin t\xEDtulo_20240701151638_2"
-      rect:
-        serializedVersion: 2
-        x: 329
+        x: 64
         y: 0
-        width: 43
-        height: 47
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 749e55147dc49514b97c71dd265e8410
-      internalID: 208333305
+      spriteID: 59c7e51325f54f64a9972cab02d3cea0
+      internalID: 471314169
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "88 sin t\xEDtulo_20240701151638_3"
+      name: exploG_2
       rect:
         serializedVersion: 2
-        x: 397
-        y: 23
-        width: 39
-        height: 21
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bdf005f74c36e234aa95e547c3bb7a97
-      internalID: 375793805
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "88 sin t\xEDtulo_20240701151638_4"
-      rect:
-        serializedVersion: 2
-        x: 475
-        y: 35
-        width: 13
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6e7ea73af426bda4a9b4acb7ac5eb2b3
-      internalID: -1523287231
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "88 sin t\xEDtulo_20240701151638_5"
-      rect:
-        serializedVersion: 2
-        x: 487
-        y: 27
-        width: 75
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7ae0df9285435f542b40c6355fe719e6
-      internalID: -1552064636
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "88 sin t\xEDtulo_20240701151638_6"
-      rect:
-        serializedVersion: 2
-        x: 80
+        x: 128
         y: 0
-        width: 30
-        height: 29
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a96350c1f55732447ac4d9b790dadf71
-      internalID: -1619385921
+      spriteID: f4fb62bbc9fb8024a9bb0275142f30c5
+      internalID: 580350772
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "88 sin t\xEDtulo_20240701151638_7"
+      name: exploG_3
       rect:
         serializedVersion: 2
-        x: 143
+        x: 192
         y: 0
-        width: 32
-        height: 35
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: edd1a39822ac7cf47aa2a3acfeb5202f
-      internalID: 379780728
+      spriteID: 5395cc73c08421b48b61a9bc8e28f281
+      internalID: 393899205
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "88 sin t\xEDtulo_20240701151638_8"
+      name: exploG_4
       rect:
         serializedVersion: 2
-        x: 456
-        y: 28
-        width: 13
-        height: 6
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eb12baa52fe07ec4b9f9d3dded55f540
-      internalID: -662603763
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "88 sin t\xEDtulo_20240701151638_9"
-      rect:
-        serializedVersion: 2
-        x: 23
+        x: 256
         y: 0
-        width: 17
-        height: 17
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4732717405605f44913f1689753fa32
-      internalID: 824866219
+      spriteID: 12ecfa983fc034a408f999442c95e983
+      internalID: -1256982324
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "88 sin t\xEDtulo_20240701151638_10"
+      name: exploG_5
       rect:
         serializedVersion: 2
-        x: 271
+        x: 320
         y: 0
-        width: 7
-        height: 5
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3f875a9f7a43a74b989e354683d1204
-      internalID: 910807001
+      spriteID: 0474a3bedd9e95e4997693a5b6e1d4dd
+      internalID: 1692343819
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "88 sin t\xEDtulo_20240701151638_11"
+      name: exploG_6
       rect:
         serializedVersion: 2
-        x: 294
+        x: 384
         y: 0
-        width: 10
-        height: 6
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c5ade8be658e3544bedcf2d58add105
-      internalID: 1356961663
+      spriteID: 7e02b1ef650edab488d0434796a15cc7
+      internalID: 1804419172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exploG_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 474d7e5bbc9551640843e1d7ca350020
+      internalID: 1861904427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exploG_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23170ca2dc4a2d844aab247df052135c
+      internalID: -1370510532
       vertices: []
       indices: 
       edges: []
@@ -385,18 +322,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      "88 sin t\xEDtulo_20240701151638_0": -867911565
-      "88 sin t\xEDtulo_20240701151638_1": -145883305
-      "88 sin t\xEDtulo_20240701151638_10": 910807001
-      "88 sin t\xEDtulo_20240701151638_11": 1356961663
-      "88 sin t\xEDtulo_20240701151638_2": 208333305
-      "88 sin t\xEDtulo_20240701151638_3": 375793805
-      "88 sin t\xEDtulo_20240701151638_4": -1523287231
-      "88 sin t\xEDtulo_20240701151638_5": -1552064636
-      "88 sin t\xEDtulo_20240701151638_6": -1619385921
-      "88 sin t\xEDtulo_20240701151638_7": 379780728
-      "88 sin t\xEDtulo_20240701151638_8": -662603763
-      "88 sin t\xEDtulo_20240701151638_9": 824866219
+      exploG_0: -197731193
+      exploG_1: 471314169
+      exploG_2: 580350772
+      exploG_3: 393899205
+      exploG_4: -1256982324
+      exploG_5: 1692343819
+      exploG_6: 1804419172
+      exploG_7: 1861904427
+      exploG_8: -1370510532
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
