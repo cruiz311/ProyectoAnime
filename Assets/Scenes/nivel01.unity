@@ -41443,67 +41443,6 @@ Transform:
   - {fileID: 1226480865}
   m_Father: {fileID: 787692247}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1465807718
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 5023669199481764098, guid: c4bb40d27d47f584ba7cb087b3eab536, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -75.65
-      objectReference: {fileID: 0}
-    - target: {fileID: 5023669199481764098, guid: c4bb40d27d47f584ba7cb087b3eab536, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.55
-      objectReference: {fileID: 0}
-    - target: {fileID: 5023669199481764098, guid: c4bb40d27d47f584ba7cb087b3eab536, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5023669199481764098, guid: c4bb40d27d47f584ba7cb087b3eab536, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5023669199481764098, guid: c4bb40d27d47f584ba7cb087b3eab536, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5023669199481764098, guid: c4bb40d27d47f584ba7cb087b3eab536, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5023669199481764098, guid: c4bb40d27d47f584ba7cb087b3eab536, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5023669199481764098, guid: c4bb40d27d47f584ba7cb087b3eab536, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5023669199481764098, guid: c4bb40d27d47f584ba7cb087b3eab536, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5023669199481764098, guid: c4bb40d27d47f584ba7cb087b3eab536, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8628832933195656276, guid: c4bb40d27d47f584ba7cb087b3eab536, type: 3}
-      propertyPath: m_Name
-      value: Playerlaser
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 3546165517433285569, guid: c4bb40d27d47f584ba7cb087b3eab536, type: 3}
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8628832933195656276, guid: c4bb40d27d47f584ba7cb087b3eab536, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1642993590}
-  m_SourcePrefab: {fileID: 100100000, guid: c4bb40d27d47f584ba7cb087b3eab536, type: 3}
 --- !u!1 &1469715715
 GameObject:
   m_ObjectHideFlags: 0
@@ -41791,32 +41730,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7529261692492659318, guid: cc44f594892e7c840aec6729f09761fc, type: 3}
   m_PrefabInstance: {fileID: 570155819}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1642993585 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8628832933195656276, guid: c4bb40d27d47f584ba7cb087b3eab536, type: 3}
-  m_PrefabInstance: {fileID: 1465807718}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1642993590
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1642993585}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d8350ecde5b5324f96e68ec874478af, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Direction: {x: 6.17, y: 0}
-  layer:
-    serializedVersion: 2
-    m_Bits: 576
-  resolution: 4
-  AnimVel: 100
-  AnimAmp: 0.09
-  Frequency: 0.18
-  MaxDistance: 1.8
 --- !u!1 &1690535371
 GameObject:
   m_ObjectHideFlags: 0
@@ -44423,7 +44336,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Cdisparo: {fileID: 7061552868482692208}
-  bala: {fileID: 7479997529901230587, guid: d0d0f69d41025034ca5ec457161a4144, type: 3}
+  bala: {fileID: 4777972014378277063, guid: 9d3a297f6f4ad5c45b1e6e7da0e3467c, type: 3}
 --- !u!50 &3918249224054153871
 Rigidbody2D:
   serializedVersion: 4
@@ -45939,6 +45852,5 @@ SceneRoots:
   - {fileID: 930298465}
   - {fileID: 59570625}
   - {fileID: 737553665}
-  - {fileID: 1465807718}
   - {fileID: 1416874637}
   - {fileID: 615363489}
