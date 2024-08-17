@@ -5,11 +5,18 @@ using UnityEngine;
 public class Bala : MonoBehaviour
 {
     [SerializeField] private float velocidad;
-    [SerializeField] private int daño;
+    [SerializeField] private int daño; 
+    [SerializeField] private float timeD;
+
 
     private void Update()
     {
         transform.Translate(Vector2.right * velocidad * Time.deltaTime);
+        Invoke("ObjDestroy", timeD);
+    }
+    private void ObjDestroy()
+    {
+        Destroy(this.gameObject);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -21,7 +28,7 @@ public class Bala : MonoBehaviour
             {
                 enemigo.TomarDaño(daño);
             }
-            Destroy(gameObject);
+            Invoke("ObjDestroy", timeD);
         }
     }
 
@@ -29,7 +36,7 @@ public class Bala : MonoBehaviour
     {
         if (collision.gameObject.layer == LayerMask.NameToLayer("piso"))
         {
-            Destroy(gameObject);
+            Destroy(this.gameObject);
         }
     }
 }

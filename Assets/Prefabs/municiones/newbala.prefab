@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 2574582470813314199}
   m_Layer: 0
   m_Name: newbala
-  m_TagString: Untagged
+  m_TagString: Bala1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -102,6 +102,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocidad: 22
   "da\xF1o": 24
+  timeD: 2.5
 --- !u!58 &3604389865903421402
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -131,7 +132,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.25871298, y: 0.031464577}

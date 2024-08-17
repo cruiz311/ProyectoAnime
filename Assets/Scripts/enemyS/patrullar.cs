@@ -7,6 +7,7 @@ public class Patrullar : MonoBehaviour
     [SerializeField] private float velocidadMovimiento;
     [SerializeField] private Transform[] ptsMov;
     [SerializeField] private float distanciaMin;
+    [SerializeField] private GameObject dectAera, dectarea2;
 
     private int numeroAleatorio;
     private SpriteRenderer spriteRenderer;
@@ -34,10 +35,14 @@ public class Patrullar : MonoBehaviour
         if (transform.position.x < ptsMov[numeroAleatorio].position.x)
         {
             spriteRenderer.flipX = false;
+            dectAera.SetActive(true);
+            dectarea2.SetActive(false);
         }
         else
         {
             spriteRenderer.flipX = true;
-        }
+            dectAera.SetActive(false);
+            dectarea2.SetActive(true);
+        }        
     }
 }

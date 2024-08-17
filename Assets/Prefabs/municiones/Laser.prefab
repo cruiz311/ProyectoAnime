@@ -188,13 +188,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1562696421016200385}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 545549984ee805346841a2a7ae5b1bd5, type: 3}
+  m_Script: {fileID: 11500000, guid: e61bb969060eb5b419503e3d6fca97c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Init: 1
-  OnTime: 0.2
-  OffTime: 0.2
-  Direction: {x: 1, y: 0}
+  Init: 0
+  OnTime: 0
+  OffTime: 0
+  Direction: {x: 0, y: 0}
   layer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0

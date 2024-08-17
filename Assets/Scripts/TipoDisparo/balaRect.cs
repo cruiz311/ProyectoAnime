@@ -24,13 +24,25 @@ public class BalaBhvFALL : MonoBehaviour
     private bool isSmoothing = false;
     private float smoothingStartTime;
     private float initialHorizontalSpeed;
+    private Transform playePos;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        float direction = (PlayerDetect.Instance._player.transform.position.x > transform.position.x) ? Vel : -Vel;
-        rb.velocity = new Vector2(direction, Random.Range(-0.25f, Randomize));
+        playePos = GameObject.FindGameObjectWithTag("Player").transform;
 
+        //float direction = (PlayerDetect.Instance._player.transform.position.x > transform.position.x) ? Vel : -Vel;
+        if(playePos != null)
+        {
+            float direction = (playePos.position.x > transform.position.x) ? Vel : -Vel;
+            rb.velocity = new Vector2(direction, Random.Range(-0.25f, Randomize));
+        }
+        else
+        {
+            float direction = transform.position.x * Vel;
+            rb.velocity = new Vector2(direction, Random.Range(-0.25f, Randomize));
+        }
+      
         float fallTime = Random.Range(minFallTime, maxFallTime); // Genera un tiempo de caída aleatorio.
         Invoke(nameof(StartFalling), fallTime);
         Invoke(nameof(Delete), fallTime + 10); // Ajusta el tiempo para eliminar el objeto después de la caída, si es necesario.

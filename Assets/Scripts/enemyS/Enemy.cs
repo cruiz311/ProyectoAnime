@@ -6,7 +6,14 @@ public class Enemy : MonoBehaviour
 {
     [SerializeField] private float vida;
     [SerializeField] private GameObject efectoMuerte;
-
+    private void Update()
+    {
+        if (vida <= 0)
+        {
+            Muerte();
+        }
+        Debug.Log(vida);
+    }
     public void TomarDaño(float daño)
     {
         vida -= daño;

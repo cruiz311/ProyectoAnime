@@ -60,7 +60,7 @@ public class Plamov : MonoBehaviour
     private void FixedUpdate()
     {
         enSuelo = Physics2D.OverlapBox(Csuelo.position, dimensionesCaja, 0f, esSuelo);
-         if (sePuedeMover)
+        if (sePuedeMover)
         {
             Mover(movimientoHorizontal * Time.fixedDeltaTime, salto);
         }
