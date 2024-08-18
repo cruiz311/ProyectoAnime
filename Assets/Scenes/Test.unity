@@ -1428,6 +1428,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cientifico
       objectReference: {fileID: 0}
+    - target: {fileID: 2072111745760337402, guid: 7138c0d11b84ca644bd411c0d4c8695a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.313
+      objectReference: {fileID: 0}
+    - target: {fileID: 2072111745760337402, guid: 7138c0d11b84ca644bd411c0d4c8695a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.643
+      objectReference: {fileID: 0}
     - target: {fileID: 5360986205736459409, guid: 7138c0d11b84ca644bd411c0d4c8695a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
