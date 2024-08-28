@@ -6,7 +6,7 @@ public class CombateJugador : MonoBehaviour
 {
     [SerializeField] int vida;
     [SerializeField] int maxVida;
-    [SerializeField] private GameObject efectoMuerte;
+    
 
     private void Start()
     {
@@ -23,8 +23,7 @@ public class CombateJugador : MonoBehaviour
 
     }
     public void Muerte()
-    {
-        Instantiate(efectoMuerte, transform.position, Quaternion.identity);
+    {  
         Destroy(gameObject);
     }
 

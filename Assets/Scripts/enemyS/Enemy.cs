@@ -12,7 +12,7 @@ public class Enemy : MonoBehaviour
         {
             Muerte();
         }
-        Debug.Log(vida);
+       
     }
     public void TomarDaño(float daño)
     {

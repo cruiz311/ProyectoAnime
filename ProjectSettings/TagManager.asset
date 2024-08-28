@@ -7,11 +7,15 @@ TagManager:
   - Enemy
   - escalera
   - HitAble
+  - Bala1
+  - fondo
+  - suelo
+  - player
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - fondo
   - Water
   - UI
   - piso
@@ -43,4 +47,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: fondo
+    uniqueID: 1985940309
+    locked: 0
+  - name: suelo
+    uniqueID: 2775793901
+    locked: 0
+  - name: player
+    uniqueID: 171830157
     locked: 0
