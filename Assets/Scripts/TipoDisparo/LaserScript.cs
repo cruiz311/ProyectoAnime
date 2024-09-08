@@ -13,23 +13,32 @@ public class LaserScript : MonoBehaviour
     [Tooltip("Contra que colisina el Laser")] public LayerMask layer;
 
     private LineRenderer lR;
+    private EdgeCollider2D eC;
+
     void Start()
     {
         lR = GetComponent<LineRenderer>();
 
+        // Ajusta el grosor del láser
+        lR.startWidth = 0.2f; // Grosor al inicio del láser
+        lR.endWidth = 0.2f;   // Grosor al final del láser
+
+        // Añade una textura al LineRenderer
+        lR.material = new Material(Shader.Find("Unlit/Texture"));
+        lR.material.mainTexture = Resources.Load<Texture2D>("Textures/LaserTexture"); // Usa una textura personalizada
+
         if (Init) StartCoroutine(nameof(StartCounter));
     }
+
 
     IEnumerator StartCounter()
     {
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Direction.normalized, 100f, layer);
-        EdgeCollider2D eC = GetComponent<EdgeCollider2D>();
 
         if (hit.collider != null)
         {
             lR.useWorldSpace = true;
             lR.SetPosition(0, transform.position);
-
             lR.SetPosition(1, hit.point);
 
             List<Vector2> a = new()
@@ -38,9 +47,7 @@ public class LaserScript : MonoBehaviour
                 hit.point - (Vector2)transform.position
             };
 
-
             eC.SetPoints(a);
-
         }
         else yield break;
 
@@ -49,9 +56,24 @@ public class LaserScript : MonoBehaviour
             lR.enabled = false;
             eC.enabled = false;
             yield return new WaitForSeconds(OffTime);
+
             lR.enabled = true;
             eC.enabled = true;
             yield return new WaitForSeconds(OnTime);
+        }
+    }
+
+    // Detectar colisiones con el jugador
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            // Usamos el script CombateJugador para hacer daño al jugador
+            CombateJugador combateJugador = collision.GetComponent<CombateJugador>();
+            if (combateJugador != null)
+            {
+                combateJugador.TomarDaño(10); // Ajusta el valor del daño según sea necesario
+            }
         }
     }
 }

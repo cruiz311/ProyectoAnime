@@ -16,7 +16,7 @@ public class Plamov : MonoBehaviour
     [SerializeField] private float velocidadSubida = 5f;
     private float movimientoHorizontal = 0f;
     private Vector3 velocidad = Vector3.zero;
-    private bool mirandoDerecha = true;
+    public bool mirandoDerecha = true;
 
     [Header("Configuración de Salto")]
     [SerializeField] private float fuerzaSalto;

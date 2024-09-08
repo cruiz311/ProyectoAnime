@@ -1,4 +1,3 @@
-using System.Collections;
 using UnityEngine;
 
 public class Recolectable : MonoBehaviour
@@ -13,13 +12,7 @@ public class Recolectable : MonoBehaviour
         {
             anim.SetBool("efecto", true);
             puntaje.SumarPuntos(cantidadPuntos);
-            StartCoroutine(DestruirDespuesDeDelay(1.5f)); // Inicia la corrutina con un retraso de 2 segundos
+            Destroy(gameObject); // Destruye el objeto inmediatamente
         }
-    }
-
-    private IEnumerator DestruirDespuesDeDelay(float delay)
-    {
-        yield return new WaitForSeconds(delay);
-        Destroy(gameObject);
     }
 }

@@ -6,14 +6,16 @@ public class Enemy : MonoBehaviour
 {
     [SerializeField] private float vida;
     [SerializeField] private GameObject efectoMuerte;
+    [SerializeField] private LootSplash lootSplash;
+
     private void Update()
     {
         if (vida <= 0)
         {
             Muerte();
         }
-       
     }
+
     public void TomarDaño(float daño)
     {
         vida -= daño;
@@ -25,7 +27,19 @@ public class Enemy : MonoBehaviour
 
     private void Muerte()
     {
-        Instantiate(efectoMuerte, transform.position, Quaternion.identity);
+        // Instanciar el efecto de muerte en la posición del enemigo
+        if (efectoMuerte != null)
+        {
+            Instantiate(efectoMuerte, transform.position, Quaternion.identity);
+        }
+
+        // Llamar al método para soltar loot
+        if (lootSplash != null)
+        {
+            lootSplash.SpawnLoot();
+        }
+
+        // Destruir el enemigo
         Destroy(gameObject);
     }
 }

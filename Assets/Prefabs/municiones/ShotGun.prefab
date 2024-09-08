@@ -12,11 +12,10 @@ GameObject:
   - component: {fileID: 9089504301827303615}
   - component: {fileID: 2007332316055696059}
   - component: {fileID: 8147138511450354946}
-  - component: {fileID: 5669061507325297315}
   - component: {fileID: 6561629042682357663}
   m_Layer: 0
   m_Name: ShotGun
-  m_TagString: MainCamera
+  m_TagString: Bala1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4920,36 +4919,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 757e9dd59b3b21f4e96411fe395bc841, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidad: 9
+  velocidad: 2
   "da\xF1o": 30
   timeD: 3
---- !u!50 &5669061507325297315
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6333796244681424420}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: -1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 1
-  m_Constraints: 0
+  municionInicial: 50
 --- !u!82 &6561629042682357663
 AudioSource:
   m_ObjectHideFlags: 0

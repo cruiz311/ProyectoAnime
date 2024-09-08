@@ -45,11 +45,11 @@ public class EnemyShootUp : MonoBehaviour
                 GameObject aBala = Instantiate(BalaGO, this.transform.position, Quaternion.identity);
                 if (!spriteRenderer.flipX)
                 {
-                    transform.position -= new Vector3(0.5f,0,0);
+                    transform.position -= new Vector3(0.2f,0,0);
                 }
                 else
                 {
-                    transform.position += new Vector3(0.5f, 0, 0);
+                    transform.position += new Vector3(0.2f, 0, 0);
                 }
                 
                 foreach (Collider2D collider_ in GetComponents<Collider2D>())
