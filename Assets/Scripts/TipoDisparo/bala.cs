@@ -27,6 +27,7 @@ public class Bala : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        // Si colisiona con un enemigo, le hace daño y destruye la bala
         if (other.CompareTag("Enemy"))
         {
             Enemy enemigo = other.GetComponent<Enemy>();
@@ -34,15 +35,19 @@ public class Bala : MonoBehaviour
             {
                 enemigo.TomarDaño(daño);
             }
-            Invoke("ObjDestroy", timeD);
+            ObjDestroy(); // Destruir la bala después de hacer daño
+        }
+        else
+        {
+            // Destruir la bala si colisiona con cualquier otro objeto
+            ObjDestroy();
         }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.layer == LayerMask.NameToLayer("piso"))
-        {
-            Destroy(this.gameObject);
-        }
+        // Si colisiona con el suelo o cualquier otro objeto, destruir la bala
+        ObjDestroy();
     }
 }
+

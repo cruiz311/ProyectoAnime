@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &962070193729028772
+--- !u!1 &7493560053839321728
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,10 +8,12 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2199666376384506147}
-  - component: {fileID: 9111379083711664776}
-  - component: {fileID: 749743422217253429}
-  - component: {fileID: 9193382945981461244}
+  - component: {fileID: 8948036949295769822}
+  - component: {fileID: 4898575157521783939}
+  - component: {fileID: 8907396334870668464}
+  - component: {fileID: 8580816516061586125}
+  - component: {fileID: 1352280663728869973}
+  - component: {fileID: 613153466265530755}
   m_Layer: 9
   m_Name: BalaEnemigo
   m_TagString: Enemy
@@ -19,28 +21,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2199666376384506147
+--- !u!4 &8948036949295769822
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 962070193729028772}
+  m_GameObject: {fileID: 7493560053839321728}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.814532, y: -0.8627656, z: 0}
+  m_LocalPosition: {x: -22.543602, y: -1.1116731, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &9111379083711664776
+--- !u!212 &4898575157521783939
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 962070193729028772}
+  m_GameObject: {fileID: 7493560053839321728}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -86,13 +88,13 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!58 &749743422217253429
+--- !u!58 &8907396334870668464
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 962070193729028772}
+  m_GameObject: {fileID: 7493560053839321728}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -121,17 +123,62 @@ CircleCollider2D:
   m_Offset: {x: 0.058476448, y: 0.058476597}
   serializedVersion: 2
   m_Radius: 0.32198712
---- !u!114 &9193382945981461244
+--- !u!50 &8580816516061586125
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7493560053839321728}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: -18.05
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
+--- !u!114 &1352280663728869973
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 962070193729028772}
+  m_GameObject: {fileID: 7493560053839321728}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d9d75a4dde322a41bf56674ff651033, type: 3}
+  m_Script: {fileID: 11500000, guid: bff1f3ab2dffefc429b92897186d8898, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidad: 2.56
-  "da\xF1o": 777
+  transformJugador: {fileID: 0}
+  velocidadMovimiento: 5
+  anguloInicial: 0
+  velocidadRotacion: 2.5
+  "da\xF1o": 40
+--- !u!114 &613153466265530755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7493560053839321728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1caef04803d9b044b8d27499b7f27b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vida: 20
+  efectoMuerte: {fileID: 136973951090066963, guid: b1c05376b9f6605429cfb03f5cea2c40, type: 3}
+  lootSplash: {fileID: 0}

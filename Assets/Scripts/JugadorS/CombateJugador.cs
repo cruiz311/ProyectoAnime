@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using System;
 
 public class CombateJugador : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class CombateJugador : MonoBehaviour
     [SerializeField] int maxVida;
     [SerializeField] int vidasRestantes = 3; // Tres vidas iniciales
     public UnityEvent<int> cambioVida;
+    public event EventHandler MuerteJugador;
 
     [Header("Retroceso")]
     public float fuerzaRetroceso = 5f; // Controla la fuerza del retroceso
@@ -17,6 +19,9 @@ public class CombateJugador : MonoBehaviour
     private DisparoP disparoJugador;  // Referencia al script de disparo
 
     private bool puedeMoverse = true; // Controla si el jugador puede moverse
+    private bool puedeRecibirDaño = true; // Controla si el jugador puede recibir daño
+
+    private SpriteRenderer spriteRenderer; // Referencia al SpriteRenderer del objeto hijo
 
     private void Start()
     {
@@ -25,11 +30,18 @@ public class CombateJugador : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();  // Obtiene el componente Rigidbody2D
         movimientoJugador = GetComponent<Plamov>(); // Obtiene el script de movimiento
         disparoJugador = GetComponent<DisparoP>();  // Obtiene el script de disparo
+        spriteRenderer = GetComponentInChildren<SpriteRenderer>(); // Obtiene el SpriteRenderer del hijo
+
+        // Verifica si el SpriteRenderer está presente
+        if (spriteRenderer == null)
+        {
+            Debug.LogError("No hay un SpriteRenderer en el hijo del jugador. Asegúrate de que exista.");
+        }
     }
 
     public void TomarDaño(int daño)
     {
-        if (!puedeMoverse) return; // Si no puede moverse, no toma más daño
+        if (!puedeRecibirDaño || !puedeMoverse) return; // Si no puede recibir daño o moverse, no toma más daño
 
         vida -= daño;
         if (vida <= 0)
@@ -38,6 +50,7 @@ public class CombateJugador : MonoBehaviour
             if (vidasRestantes > 0)
             {
                 vida = maxVida; // Restaura la vida al máximo cuando pierde una vida
+                StartCoroutine(InvulnerabilidadTemporal()); // Inicia la invulnerabilidad temporal
             }
             else
             {
@@ -70,7 +83,6 @@ public class CombateJugador : MonoBehaviour
         cambioVida.Invoke(vidasRestantes);  // Actualiza el evento con las vidas restantes
     }
 
-
     IEnumerator DesactivarMovimiento(float duracion)
     {
         movimientoJugador.sePuedeMover = false; // Desactiva el movimiento en Plamov
@@ -78,8 +90,26 @@ public class CombateJugador : MonoBehaviour
         movimientoJugador.sePuedeMover = true; // Reactiva el movimiento
     }
 
+    IEnumerator InvulnerabilidadTemporal()
+    {
+        puedeRecibirDaño = false;
+
+        if (spriteRenderer != null)
+        {
+            for (int i = 0; i < 14; i++) // Parpadea durante 7 segundos
+            {
+                spriteRenderer.enabled = !spriteRenderer.enabled;
+                yield return new WaitForSeconds(0.25f);
+            }
+            spriteRenderer.enabled = true; // Asegura que el sprite se muestre al final
+        }
+
+        puedeRecibirDaño = true;
+    }
+
     public void Muerte()
     {
+        MuerteJugador?.Invoke(this, EventArgs.Empty);
         Destroy(gameObject);
     }
 
