@@ -12,7 +12,7 @@ public class Recolectable : MonoBehaviour
         {
             anim.SetBool("efecto", true);
             puntaje.SumarPuntos(cantidadPuntos);
-            Destroy(gameObject); // Destruye el objeto inmediatamente
+            Destroy(gameObject, 1f); // Destruye el objeto inmediatamente
         }
     }
 }

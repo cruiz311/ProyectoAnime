@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8580816516061586125}
   - component: {fileID: 1352280663728869973}
   - component: {fileID: 613153466265530755}
+  - component: {fileID: -8160120872087603036}
   m_Layer: 9
   m_Name: BalaEnemigo
   m_TagString: Enemy
@@ -182,3 +183,24 @@ MonoBehaviour:
   vida: 20
   efectoMuerte: {fileID: 136973951090066963, guid: b1c05376b9f6605429cfb03f5cea2c40, type: 3}
   lootSplash: {fileID: 0}
+--- !u!95 &-8160120872087603036
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7493560053839321728}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d0081e59b7eff774780195f0b9cb0218, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
