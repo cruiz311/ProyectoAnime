@@ -456,10 +456,12 @@ MonoBehaviour:
   Cdisparo: {fileID: 4697928568871930627}
   disLeft: {fileID: 5117956018222294865}
   disArriba: {fileID: 5379995669471457125}
-  bala: {fileID: 6527721440799215588, guid: 930692c4a02301b40a646e258bce2a9e, type: 3}
-  municionMax: 20
+  balaBase: {fileID: 0}
+  balaEspecial: {fileID: 0}
   text: {fileID: 0}
-  infinito: 1
+  music: {fileID: 0}
+  fireRate: 0.2
+  puedeDisparar: 1
 --- !u!114 &3559557584436404435
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -477,7 +479,8 @@ MonoBehaviour:
   velocidadMovimiento: 280
   suavizadoMovimiento: 0.05
   velocidadSubida: 5
-  fuerzaSalto: 300
+  mirandoDerecha: 1
+  fuerzaSalto: 500
   esSuelo:
     serializedVersion: 2
     m_Bits: 64
@@ -498,7 +501,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vida: 1
   maxVida: 1
-  efectoMuerte: {fileID: 4187849437930232739, guid: 41875ec241fa8314c8d2a6452158838b, type: 3}
+  vidasRestantes: 3
+  cambioVida:
+    m_PersistentCalls:
+      m_Calls: []
+  fuerzaRetroceso: 5
 --- !u!95 &1349938258436729997
 Animator:
   serializedVersion: 5
