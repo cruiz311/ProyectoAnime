@@ -8,6 +8,10 @@ public class Enemy : MonoBehaviour
     [SerializeField] private GameObject efectoMuerte;
     [SerializeField] private LootSplash lootSplash;
 
+    // Nuevo campo para establecer la posición de generación
+    [SerializeField] private Transform posicionGeneracion; // Asignar en el Inspector
+    [SerializeField] private bool invertirEfectoMuerte; // Opción para invertir el GameObject
+
     private void Update()
     {
         if (vida <= 0)
@@ -27,10 +31,17 @@ public class Enemy : MonoBehaviour
 
     private void Muerte()
     {
-        // Instanciar el efecto de muerte en la posición del enemigo
+        // Instanciar el efecto de muerte en la posición del enemigo o en la posición personalizada
         if (efectoMuerte != null)
         {
-            Instantiate(efectoMuerte, transform.position, Quaternion.identity);
+            GameObject efecto = Instantiate(efectoMuerte, posicionGeneracion.position, Quaternion.identity);
+
+            // Rotar el efecto de muerte si es necesario
+            if (invertirEfectoMuerte)
+            {
+                // Gira el efecto 180 grados en el eje Z
+                efecto.transform.Rotate(0f, 0f, 180f);
+            }
         }
 
         // Llamar al método para soltar loot

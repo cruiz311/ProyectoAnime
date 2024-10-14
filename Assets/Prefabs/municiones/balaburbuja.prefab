@@ -99,7 +99,7 @@ Animator:
   m_GameObject: {fileID: 6718811214930592844}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: f21031ff5248b8849ab5c219eaaef969, type: 2}
+  m_Controller: {fileID: 9100000, guid: ff255cb2a4b79744c8773c0265e282a2, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -206,3 +206,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vida: 2
   efectoMuerte: {fileID: 6590557059877465265, guid: 15716c45810179b4596183b335a4dd61, type: 3}
+  lootSplash: {fileID: 0}

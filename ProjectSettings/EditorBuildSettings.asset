@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/nivel01.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Bobosaurio.unity
+    guid: 71dd2b79202a7d04697bfa6ac6ae7189
   m_configObjects: {}

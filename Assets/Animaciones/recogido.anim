@@ -22,23 +22,23 @@ AnimationClip:
     curve:
     - time: 0
       value: {fileID: 1390471059, guid: df7ffaf6ec41a5c4da7e103658b408c2, type: 3}
-    - time: 0.1
+    - time: 0.083333336
       value: {fileID: 395777584, guid: df7ffaf6ec41a5c4da7e103658b408c2, type: 3}
     - time: 0.21666667
       value: {fileID: 1567397813, guid: df7ffaf6ec41a5c4da7e103658b408c2, type: 3}
-    - time: 0.36666667
+    - time: 0.35
       value: {fileID: -1525310193, guid: df7ffaf6ec41a5c4da7e103658b408c2, type: 3}
-    - time: 0.46666667
+    - time: 0.43333334
       value: {fileID: 1764887231, guid: df7ffaf6ec41a5c4da7e103658b408c2, type: 3}
-    - time: 0.53333336
+    - time: 0.56666666
       value: {fileID: -638606192, guid: df7ffaf6ec41a5c4da7e103658b408c2, type: 3}
-    - time: 0.6333333
+    - time: 0.65
       value: {fileID: -1622151803, guid: df7ffaf6ec41a5c4da7e103658b408c2, type: 3}
-    - time: 0.71666664
+    - time: 0.73333335
       value: {fileID: 1836387961, guid: df7ffaf6ec41a5c4da7e103658b408c2, type: 3}
     - time: 0.81666666
       value: {fileID: 1904380469, guid: df7ffaf6ec41a5c4da7e103658b408c2, type: 3}
-    - time: 0.9
+    - time: 0.9166667
       value: {fileID: 130563799, guid: df7ffaf6ec41a5c4da7e103658b408c2, type: 3}
     - time: 1
       value: {fileID: 1585059084, guid: df7ffaf6ec41a5c4da7e103658b408c2, type: 3}
