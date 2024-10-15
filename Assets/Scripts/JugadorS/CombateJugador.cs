@@ -23,6 +23,9 @@ public class CombateJugador : MonoBehaviour
 
     private SpriteRenderer spriteRenderer; // Referencia al SpriteRenderer del objeto hijo
 
+    // Referencia al Animator para manejar las animaciones
+    private Animator animator;
+
     private void Start()
     {
         vida = maxVida;
@@ -31,6 +34,7 @@ public class CombateJugador : MonoBehaviour
         movimientoJugador = GetComponent<Plamov>(); // Obtiene el script de movimiento
         disparoJugador = GetComponent<DisparoP>();  // Obtiene el script de disparo
         spriteRenderer = GetComponentInChildren<SpriteRenderer>(); // Obtiene el SpriteRenderer del hijo
+        animator = GetComponent<Animator>(); // Obtiene el componente Animator
 
         // Verifica si el SpriteRenderer está presente
         if (spriteRenderer == null)
@@ -54,7 +58,7 @@ public class CombateJugador : MonoBehaviour
             }
             else
             {
-                Muerte();
+                Muerte(); // Llama a la función de muerte si se queda sin vidas
             }
         }
 
@@ -109,8 +113,17 @@ public class CombateJugador : MonoBehaviour
 
     public void Muerte()
     {
+        // Activa el trigger de la animación de muerte
+        if (animator != null)
+        {
+            animator.SetTrigger("Muerte");
+        }
+
+        // Llama al evento de muerte
         MuerteJugador?.Invoke(this, EventArgs.Empty);
-        Destroy(gameObject);
+
+        // Destruye el objeto después de un pequeño retraso para permitir que la animación se reproduzca
+        Destroy(gameObject, 2f); // Destruir el objeto después de 2 segundos
     }
 
     public int ObtenerVidasRestantes()

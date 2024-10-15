@@ -21,10 +21,14 @@ public class DisparoP : MonoBehaviour
     // Variable de control para permitir o no disparar
     public bool puedeDisparar = true;
 
+    // Referencia al Animator
+    private Animator animator;
+
     private void Start()
     {
         // Usamos la bala base al inicio con munición infinita
         CambiarABalaBase();
+        animator = GetComponent<Animator>(); // Obtiene el componente Animator
     }
 
     private void Update()
@@ -34,6 +38,9 @@ public class DisparoP : MonoBehaviour
         {
             fireCooldown -= Time.deltaTime;
         }
+
+        // Permitir movimiento del personaje si el jugador se mueve
+        MoverPersonaje();
 
         // Solo permite disparar si puedeDisparar es true
         if (puedeDisparar)
@@ -64,46 +71,61 @@ public class DisparoP : MonoBehaviour
         {
             timeSinceLastBullet = 0f; // Resetea el tiempo si hay una bala en escena
         }
+
+        // Activar la animación de emote con la tecla "b"
+        if (Input.GetKeyDown(KeyCode.B))
+        {
+            ActivarEmote();
+        }
+    }
+
+    private void MoverPersonaje()
+    {
+        // Lógica para mover el personaje. Puedes modificar esto según tu implementación de movimiento
+        float moveX = Input.GetAxis("Horizontal");
+        float moveY = Input.GetAxis("Vertical");
+
+        if (moveX != 0 || moveY != 0)
+        {
+            var playerMovement = GetComponent<Plamov>(); // Cambiado a Plamov
+            if (playerMovement != null)
+            {
+                playerMovement.enabled = true; // Asegura que el movimiento esté habilitado
+            }
+        }
+        else
+        {
+            var playerMovement = GetComponent<Plamov>();
+            if (playerMovement != null)
+            {
+                playerMovement.enabled = false; // Deshabilita el movimiento si no hay entrada
+            }
+        }
     }
 
     private void Disparar()
     {
-        float posDisY = Input.GetAxisRaw("Vertical");
-        float posDisX = Input.GetAxisRaw("Horizontal");
-
-        if (Input.GetButtonDown("Fire1") && fireCooldown <= 0f)
+        // Disparo desde el pivote central
+        if (Input.GetKeyDown(KeyCode.R) && fireCooldown <= 0f)
         {
-            if (posDisY <= 0)
-            {
-                InstanciarBala(Cdisparo.position, Cdisparo.rotation);
-            }
-            else if (posDisY > 0 && posDisX == 0)
-            {
-                InstanciarBala(disArriba.position, disArriba.rotation);
-            }
-            else if (posDisY > 0 && (posDisX < 0 || posDisX > 0))
-            {
-                InstanciarBala(disLeft.position, disLeft.rotation);
-            }
+            InstanciarBala(Cdisparo.position, Cdisparo.rotation);
+            fireCooldown = fireRate; // Reiniciar el cooldown
+        }
 
-            // Si está usando bala especial, reducir la munición
-            if (usandoBalaEspecial)
-            {
-                municion--;
-                if (municion <= 0)
-                {
-                    CambiarABalaBase();  // Cambiar a bala base cuando se acabe la munición especial
-                }
+        // Disparo desde el pivote izquierdo con "q"
+        if (Input.GetKeyDown(KeyCode.Q) && fireCooldown <= 0f)
+        {
+            InstanciarBala(disLeft.position, disLeft.rotation); // Usando disLeft como ejemplo
+            ActivarAnimacion("DisparoIzquierda"); // Activar la animación correspondiente
+            fireCooldown = fireRate; // Reiniciar el cooldown
+        }
 
-                // Reproducir la música solo al disparar balas especiales
-                if (!isMusicPlaying)
-                {
-                    PlayMusic();
-                }
-            }
-
-            // Reiniciar el cooldown de disparo
-            fireCooldown = fireRate;
+        // Disparo hacia arriba con "w"
+        if (Input.GetKeyDown(KeyCode.E) && fireCooldown <= 0f)
+        {
+            InstanciarBala(disArriba.position, disArriba.rotation);
+            ActivarAnimacion("DisparoArriba"); // Activar animación con trigger "DisparoArriba"
+            fireCooldown = fireRate; // Reiniciar el cooldown
         }
     }
 
@@ -166,6 +188,32 @@ public class DisparoP : MonoBehaviour
     {
         puedeDisparar = false;
         yield return new WaitForSeconds(tiempoBloqueo);
+        puedeDisparar = true;
+    }
+
+    private void ActivarAnimacion(string nombreAnimacion)
+    {
+        animator.SetTrigger(nombreAnimacion); // Activa el trigger correspondiente
+    }
+
+    private void ActivarEmote()
+    {
+        // Activar el trigger del emote
+        animator.SetTrigger("Emote");
+
+        // Deshabilitar temporalmente el disparo y movimiento
+        puedeDisparar = false;
+
+        // Iniciar una corrutina para restaurar el estado normal después de la animación
+        StartCoroutine(DesactivarEmote());
+    }
+
+    private IEnumerator DesactivarEmote()
+    {
+        // Espera a que termine la animación del emote (ajusta el tiempo según la duración de la animación)
+        yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
+
+        // Volver al estado normal
         puedeDisparar = true;
     }
 }

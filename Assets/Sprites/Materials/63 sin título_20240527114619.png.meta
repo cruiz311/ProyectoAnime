@@ -113,6 +113,132 @@ TextureImporter:
       name: "63 sin t\xEDtulo_20240527114619_0"
       rect:
         serializedVersion: 2
+        x: 41
+        y: 0
+        width: 16
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3f089324575c24680d91676b967207
+      internalID: -1410033377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "63 sin t\xEDtulo_20240527114619_1"
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 0
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2829715dca9dfdf4fa97857e48a811e4
+      internalID: 1419017433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "63 sin t\xEDtulo_20240527114619_2"
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 0
+        width: 16
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699c80ec944f65045b0037548e963f34
+      internalID: -568296530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "63 sin t\xEDtulo_20240527114619_3"
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 0
+        width: 16
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ba2676676c9ac4296129ea44786637
+      internalID: 275175520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "63 sin t\xEDtulo_20240527114619_4"
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 0
+        width: 16
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9cae603cefdbd42a9d2e7063adb16d
+      internalID: 631587785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "63 sin t\xEDtulo_20240527114619_5"
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 0
+        width: 16
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 115ba85bce7dfe44fa3ac4befb85a056
+      internalID: -251746795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "63 sin t\xEDtulo_20240527114619_6"
+      rect:
+        serializedVersion: 2
         x: 141
         y: 13
         width: 6
@@ -124,8 +250,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c3f089324575c24680d91676b967207
-      internalID: -1410033377
+      spriteID: 1902c17a36108394886acc0862afd70a
+      internalID: -172718614
       vertices: []
       indices: 
       edges: []
@@ -142,6 +268,12 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       "63 sin t\xEDtulo_20240527114619_0": -1410033377
+      "63 sin t\xEDtulo_20240527114619_1": 1419017433
+      "63 sin t\xEDtulo_20240527114619_2": -568296530
+      "63 sin t\xEDtulo_20240527114619_3": 275175520
+      "63 sin t\xEDtulo_20240527114619_4": 631587785
+      "63 sin t\xEDtulo_20240527114619_5": -251746795
+      "63 sin t\xEDtulo_20240527114619_6": -172718614
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
